@@ -28,7 +28,7 @@ def create_teams(n):
     
     # 5. Get the current date
     #today = datetime.date.today().strftime("%Y-%m-%d")
-    today = datetime.datetime.now().strftime("%Y-%m-%d  %H:%M%S")
+    today = datetime.datetime.now().strftime("%Y-%m-%d  %H:%M:%S")
     
     return {
         "date": today,
